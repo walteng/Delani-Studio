@@ -1,13 +1,19 @@
-
-.header{color: white;
+.header {
+  color: white;
   margin: 0;
   padding: 0;
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
   box-sizing: inherit;
 }
-div{display: block;}
-body{font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #0a0a0a;}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0a0a0a;
+}
