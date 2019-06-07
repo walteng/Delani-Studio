@@ -1,19 +1,24 @@
-.header {
-  color: white;
-  margin: 0;
-  padding: 0;
-  background-image: url("../assets/backgrounds/h_img.jpg");
-  background-size: cover;
-  box-sizing: inherit;
+div{column-gap: 5px;
+  padding: 10px;
 }
-
-div {
-  display: block;
-}
-
 body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #0a0a0a;
+  display: block;
+}
+
+.head{
+  color: white;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+.service{
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
