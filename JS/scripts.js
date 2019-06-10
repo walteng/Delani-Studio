@@ -1,4 +1,4 @@
-$(".imag").click(function() {
+$(document).ready(function (){$(".imag").click(function() {
   $('.imag').hide();
   $(".parag").toggle();
 });
@@ -85,4 +85,5 @@ $('#contact').submit(function(e) {
 
     }
   })
+});
 });

@@ -1,47 +1,59 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-div{column-gap: 1px;
+
+div {
+  column-gap: 1px;
   padding: 10px;
 }
-body {
 
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px
-  color: #0a0a0a;
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 30px color: #0a0a0a;
   display: block;
 }
-.message{margin-left: 20%}
-.cont{
+
+.message {
+  margin-left: 20%
+}
+
+.cont {
   margin-left: 10%;
   margin-right: 10%;
 }
-input,textarea {resize: vertical;
-max-width: 100%;
-background-color: rgba(0, 0, 0, 0);}
+
+input, textarea {
+  resize: vertical;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 ::placeholder {
   color: #FFFFFF;
   opacity: 1;
 }
-.head{
+
+.head {
   color: #FFFFFF;
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
 }
-.service{
+
+.service {
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
 }
-.portfolio{
+
+.portfolio {
   column-gap: 10px;
 }
 
-.text-block{
+.text-block {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,7 +62,6 @@ background-color: rgba(0, 0, 0, 0);}
   border: 2px solid white;
   padding: 20px;
   display: none;
-
 }
 
 .wedo {
@@ -61,19 +72,36 @@ background-color: rgba(0, 0, 0, 0);}
   text-align: center;
 }
 
-.contact{background-image: url("../assets/backgrounds/c_image.jpg");
-background-repeat: repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-color: #FFFFFF;}
-.icons{
+.contact {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.icons {
   margin-left: 30%;
 }
-button{cursor: pointer;}
-p{text-align: center;}
 
-.par,.parag,.parg{display: none;}
-figcaption{text-align: center;
-font-weight: bold;}
-h1{text-align: center;}
+button {
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+}
+
+.par, .parag, .parg {
+  display: none;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
