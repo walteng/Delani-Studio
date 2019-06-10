@@ -56,18 +56,18 @@ $('#work8').mouseenter(function() {
 });
 $('#contact').submit(function(e) {
   // prevent empty fields
-    e.preventDefault();
-    $(".mail, .name").each(function(){
-        if($.trim(this.value) == ""){
-            alert('you did not fill out one of the fields');
-        } else {
-            // Submit
-            $("button").click(function(e) {
-              var name = $(".name").val();
-              return alert(name + " we have received your message. Thank you for reaching out to us.");
-              e.preventDefault();
-            });
+  e.preventDefault();
+  $(".mail, .name").each(function() {
+    if ($.trim(this.value) == "") {
+      alert('you did not fill out one of the fields');
+    } else {
+      // Submit
+      $("button").click(function(e) {
+        var name = $(".name").val();
+        return confirm(name + " we have received your message. Thank you for reaching out to us.");
+        e.preventDefault();
+      });
 
-        }
-    })
-})
+    }
+  })
+});
