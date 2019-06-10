@@ -66,6 +66,8 @@ button{cursor: pointer;}
 p{text-align: center;}
 
 .par,.parag,.parg{display: none;}
+figcaption{text-align: center;
+font-weight: bold;}
 h1{text-align: center;}
 
 .wd h1{text-align: center;}

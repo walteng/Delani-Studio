@@ -1,12 +1,27 @@
 $(".imag").click(function() {
+  $('.imag').hide();
   $(".parag").toggle();
+});
+$(".parag").click(function() {
+  $(".parag").hide();
+  $(".imag").toggle();
+});
+$(".parg").click(function() {
+  $(".parg").hide();
+  $(".img").toggle();
+});
+$(".par").click(function() {
+  $(".par").hide();
+  $(".im").toggle();
 });
 
 $(".img").click(function() {
+  $('.img').hide();
   $(".parg").toggle();
 });
 
 $(".im").click(function() {
+  $('.im').hide();
   $(".par").toggle();
 });
 $('#work4').mouseenter(function() {
