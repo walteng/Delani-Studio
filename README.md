@@ -6,7 +6,14 @@
 
 ## Description
 
-The app provides sections for the studio's landing page to enable user get access to the information regarding the company, services, projects, and feedback areas. It is meant to provide interactive accessibility through various events.
+The app provides sections for the studio's landing page to enable user get access to the information regarding the company, services, projects, and feedback areas. It is meant to provide interactive accessibility through various events. It works as follows:
+
+- User runs the file path and access the landing page.
+- Click what we do images to get respective descriptions
+- Defines the images to toggle in "What we do" section when clicked and display its description.
+- On hover of the portfolio images display the project name but ensure image is visible on background.
+- For the contacts section ensure all fields are filled correctly before submit on click of the button.
+- Finally, output the name of the user and thank them for accessing the site.
 
 ## Setup/Installation Requirements
 
@@ -15,16 +22,7 @@ The app provides sections for the studio's landing page to enable user get acces
 -   Thirdly,the dependencies include the html, css, images,and jQuery files.
 
 The set is easy and requires less technical know-how to run
-## BDD
 
-### User Logic
-- User runs the file path and access the landing page.
-- Click what we do images to get respective descriptions
-### Business Logic
-- Define the images to toggle in "What we do" section when clicked and display its description.
-- On hover of the portfolio images dsplay the project name but ensure image is visible on background.
-- For the contacts section ensure all fields are filled correctly before submit on click of the button.
-- Finally, output the name of the user and thank them for accessing the site.
 ## Known Bugs
 
 Most of the bugs have been resolved accordingly hence it runs without generating errors
