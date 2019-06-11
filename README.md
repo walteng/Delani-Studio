@@ -33,7 +33,7 @@ The app is only built by use of HTML, CSS(bootstrap and css), and javascript (jQ
 
 ## Support and contact details
 
-In case of issues using the app please contact me at ngetichwalt49@gmail.com or contribute through my github account link:<https://walteng.github.io/Triangle/>
+In case of issues using the app please contact me at ngetichwalt49@gmail.com or contribute through my github account link:<https://walteng.github.io/Delani-Studio/>
 
 ### License
 
